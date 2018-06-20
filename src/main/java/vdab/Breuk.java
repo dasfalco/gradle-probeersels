@@ -31,10 +31,10 @@ public class Breuk {
         Breuk output = new Breuk(1, 2);
         int n1 = this.getTeller() * input.getNoemer();
         int n2 = this.getNoemer() * input.getTeller();
-        int n3 = this.getNoemer() * input.getNoemer();
+        int n4 = this.getNoemer() * input.getNoemer();
 
         output.setTeller(n1 - n2);
-        output.setNoemer(n3);
+        output.setNoemer(n4);
 
         return output;
         }
